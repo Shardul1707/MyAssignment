@@ -15,11 +15,16 @@ I have Developed a client-server script in Python that handles MQTT messages via
   4. Git
   5. Django
 
+
+
 **-Required Python Libraries:**
 
 1. pip install paho-mqtt
 2. pip install pymongo
 3. pip install django
+
+
+
 
 
 **-MONGO Installation:**
@@ -47,11 +52,17 @@ Check version of Mongod:
 
 
 
+
+
+
+
 **-RabbitMQ Installation:**
 
 - Installation using Homebrew -> brew install rabbitmq
 - To Start RMQ Server -> brew services start rabbitmq
 - To Stop RMQ Server -> brew services stop rabbitmq
+
+
 
 
 
@@ -64,6 +75,9 @@ Check version of Mongod:
 - python3 manage.py runserver (To start Django server)
   
 
+
+
+
 **-POSTMAN API CURL:**
 
 curl --location 'localhost:8000/dataretrieval/startTime=2024-11-01T00:00:00&endTime=2024-11-30T23:59:59/' \
@@ -75,6 +89,11 @@ curl --location 'localhost:8000/dataretrieval/startTime=2024-11-01T00:00:00&endT
 {
     "count": 6
 }
+
+
+
+
+
 
 **-Screenshots:**
 
