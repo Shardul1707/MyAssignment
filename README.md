@@ -1,4 +1,4 @@
-# MyAssignment
+# MQTT-Status-Analytics-Platform
 **- Project Description:**
 
 I have Developed a client-server script in Python that handles MQTT messages via RabbitMQ. The client script emits MQTT messages every second containing a field "status" with a random value in the range of 0-6. The server processes these messages and store them in MongoDB. Additionally, I have also developed an API using Django which accepts start and end times and return the count of each status during the specified time range.
